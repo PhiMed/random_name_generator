@@ -1,0 +1,9 @@
+<h1>Here you go!</h1>
+<hr>
+<h3><%= @name.order('RANDOM()').first.name %></h3>
+<h3><%= @name.order('RANDOM()').second.name %></h3>
+<h3><%= @name.order('RANDOM()').third.name %></h3>
+<h3><%= @name.order('RANDOM()').fourth.name %></h3>
+<h3><%= @name.order('RANDOM()').fifth.name %></h3>
+<hr>
+<p><%=link_to 'Not good enough, lets run it again!', '/names' %></p>
