@@ -1,4 +1,5 @@
 # README
+https://a-random-name-generator.herokuapp.com/
 
 This is a web-based random name generator using Ruby-on-Rails and public name data. 
 
